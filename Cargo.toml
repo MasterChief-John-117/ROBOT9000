@@ -8,3 +8,5 @@ edition = "2018"
 
 [dependencies]
 serenity = "0.8"
+sqlite = "0.25.0"
+lazy_static = "1.4.0"
