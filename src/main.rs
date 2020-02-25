@@ -63,7 +63,7 @@ fn main() {
     
     thread::spawn(|| {
         loop {
-            thread::sleep(Duration::from_millis(500));
+            thread::sleep(Duration::from_millis(1000));
 
             let start = SystemTime::now();
             let since_the_epoch = start.duration_since(UNIX_EPOCH)
